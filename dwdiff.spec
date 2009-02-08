@@ -1,10 +1,10 @@
 Summary:	diff frontend that operates on words
-Summary(pl.UTF-8):	frontend do diff-a operujący na słowach
+Summary(pl.UTF-8):	frontend do diffa operujący na słowach
 Name:		dwdiff
 Version:	1.5.2
 Release:	1
 License:	GPL v3
-Group:		Applications
+Group:		Applications/Text
 Source0:	http://os.ghalkes.nl/dist/%{name}-%{version}.tgz
 # Source0-md5:	f745fc3a965b9716ed49c8dac77d689a
 URL:		http://os.ghalkes.nl/dwdiff.html
@@ -66,7 +66,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc README
+%doc Changelog README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/dwdiff.1*
 %lang(nl) %{_mandir}/nl/man1/dwdiff.1*
