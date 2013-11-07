@@ -2,7 +2,7 @@ Summary:	diff frontend that operates on words
 Summary(pl.UTF-8):	frontend do diffa operujący na słowach
 Name:		dwdiff
 Version:	2.0.4
-Release:	3
+Release:	4
 License:	GPL v3
 Group:		Applications/Text
 Source0:	http://os.ghalkes.nl/dist/%{name}-%{version}.tgz
@@ -63,6 +63,8 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}}
 %{__make} install
 
 %find_lang %{name}
+
+rm -r $RPM_BUILD_ROOT%{_docdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
