@@ -8,7 +8,7 @@ Group:		Applications/Text
 Source0:	http://os.ghalkes.nl/dist/%{name}-%{version}.tgz
 # Source0-md5:	1bb69cbfb76583f69c6912f925fc4cec
 URL:		http://os.ghalkes.nl/dwdiff.html
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libicu-devel
 BuildRequires:	pkgconfig
 BuildRequires:	which
