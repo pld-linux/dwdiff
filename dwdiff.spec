@@ -52,7 +52,7 @@ wyświetlane.
 	--prefix="$RPM_BUILD_ROOT%{_prefix}" \
 	--mandir="$RPM_BUILD_ROOT%{_mandir}" \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags}" \
+	CFLAGS="%{rpmcflags} -fcommon" \
 	LDFLAGS="%{rpmldflags}"
 %{__make}
 
