@@ -1,12 +1,12 @@
 Summary:	diff frontend that operates on words
 Summary(pl.UTF-8):	frontend do diffa operujący na słowach
 Name:		dwdiff
-Version:	2.1.2
-Release:	4
+Version:	2.1.4
+Release:	1
 License:	GPL v3
 Group:		Applications/Text
 Source0:	http://os.ghalkes.nl/dist/%{name}-%{version}.tar.bz2
-# Source0-md5:	4ff3c3851170dcd6243870af5ecb5b68
+# Source0-md5:	4e7b332b1e9e1a9b6f119f39532ed24f
 URL:		http://os.ghalkes.nl/dwdiff.html
 BuildRequires:	gettext-tools
 BuildRequires:	libicu-devel
